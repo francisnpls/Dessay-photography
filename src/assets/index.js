@@ -12,7 +12,7 @@ import camping from './camping.jpg';
 import close from './close.png';
 import flower from './flower.png';
 import heart from './heart.png';
-import IconIG from './IconIg.png';
+import IconIG from './IconIG.png';
 import ig1 from './ig1.jpg';
 import ig2 from './ig2.jpg';
 import ig3 from './ig3.jpg';
