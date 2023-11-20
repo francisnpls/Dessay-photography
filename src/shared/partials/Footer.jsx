@@ -9,7 +9,6 @@ import { Link } from 'react-router-dom'
 const Footer = () => {
   return (
     <footer className="flex flex-col w-full bg-[#DADFCA]">
-      <Aos/>
         <div className="flex-1 flex ss:flex-row flex-col ss:gap-10 gap-5">
           <div className="flex ss:justify-start ss:items-start  flex-col ss:gap-5 gap-2 sm:pt-12 sm:pl-12 pt-6 px-6">
             <div className="flex gap-2">
