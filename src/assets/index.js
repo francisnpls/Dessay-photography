@@ -12,7 +12,7 @@ import camping from './camping.jpg';
 import close from './close.png';
 import flower from './flower.png';
 import heart from './heart.png';
-import iconIG from './iconIg.png';
+import IconIG from './IconIg.png';
 import ig1 from './ig1.jpg';
 import ig2 from './ig2.jpg';
 import ig3 from './ig3.jpg';
@@ -43,7 +43,7 @@ export {
     close,
     flower,
     heart,
-    iconIG,
+    IconIG,
     ig1,
     ig2,
     ig3,

@@ -14,7 +14,7 @@ import {
   ig4,
   ig5,
   ig6,
-  iconIG } from "../assets";
+  IconIG } from "../assets";
 
 export const navLinks = [
     {
@@ -112,37 +112,37 @@ export const FollowIg = [
   {
     id: "ig1",
     image: ig1,
-    icon: iconIG,
+    icon: IconIG,
     link: "https://www.instagram.com/p/CYihCThLKxG/"
   },
   {
     id: "ig2",
     image: ig2,
-    icon: iconIG,
+    icon: IconIG,
     link: "https://www.instagram.com/p/B31jynuH7LO/?img_index=1"
   },
   {
     id: "ig3",
     image: ig3,
-    icon: iconIG,
+    icon: IconIG,
     link: "https://www.instagram.com/p/CjXfMX5rd5w/"
   },
   {
     id: "ig4",
     image: ig4,
-    icon: iconIG,
+    icon: IconIG,
     link: "https://www.instagram.com/p/CYdMPCprkPj/"
   },
   {
     id: "ig5",
     image: ig5,
-    icon: iconIG,
+    icon: IconIG,
     link: "https://www.instagram.com/p/CYihAfELYki/"
   },
   {
     id: "ig6",
     image: ig6,
-    icon: iconIG,
+    icon: IconIG,
     link: "https://www.instagram.com/p/CzaVp_YLDRg/?img_index=1"
   },
 ];
