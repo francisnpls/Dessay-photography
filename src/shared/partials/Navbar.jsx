@@ -4,6 +4,7 @@ import { logo, close, menu } from '../../assets';
 import { navLinks } from '../../constants'
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
+import Aos from '../../shared/partials/Aos'
 
 
 const Navbar = () => {
@@ -41,7 +42,8 @@ const Navbar = () => {
 
   return (
     <nav style={navbarStyle} className="w-full py-3 flex justify-between items-center navbar fixed top-0 z-50 bg-white">
-      <div className={`${styles.paddingX} w-full flex justify-between items-center z-50`}>
+      <Aos/>
+      <div className={`${styles.paddingX} w-full flex justify-between items-center z-50`} data-aos="fade-down">
         <div className="flex justify-center items-center gap-2">
           <img src={logo} alt="logo" className="w-[40px] h-[40px] object-contain" />
           <h2 className="text-[25px] font-lilita text-[#3b6f56]">

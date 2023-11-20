@@ -4,23 +4,26 @@ import { logo } from '../../assets'
 import { socials } from '../../constants'
 import { navLinks } from '../../constants'
 import { Link } from 'react-router-dom'
+import Aos from './Aos'
+
 
 const Footer = () => {
   return (
-    <footer className="flex flex-col w-full bg-[#DADFCA]">
+    <footer className="flex flex-col w-full bg-[#DADFCA]" data-aos="fade-up">
+      <Aos/>
         <div className="flex-1 flex ss:flex-row flex-col ss:gap-10 gap-5">
-          <div className="flex ss:justify-start justify-center ss:items-start items-center flex-col ss:gap-5 gap-2 sm:pt-12 sm:pl-12 pt-6 px-6">
+          <div className="flex ss:justify-start ss:items-start  flex-col ss:gap-5 gap-2 sm:pt-12 sm:pl-12 pt-6 px-6">
             <div className="flex gap-2">
               <img src={logo} alt="logo" className="w-[40px] h-[40px] object-contain"/>
               <h2 className="text-[25px] font-lilita text-[#3b6f56]">
               Dessay
               </h2>
             </div>
-            <p className="font-poppins text-[14px] uppercase ss:text-start text-center">
+            <p className="text-[14px] uppercase ss:text-start font-montserrat">
               Based in Cavite, Philippines <br/> capturing everything
             </p>
             <div className={`flex items-center justify-start gap-5`}>
-              <p className="font-poppins text-[14px] uppercase">Connect</p>
+              <p className="text-[14px] uppercase font-montserrat" >Connect</p>
               <div className="flex gap-3">
                 {socials.map((social) => (
                   <a href={social.link} key={social.id} className={`${styles.flexCenter} border-[1px] border-[#848d5e] 

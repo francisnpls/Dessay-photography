@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../../styles'
 import { Cards } from '../../constants'
 import { useState } from 'react'
+import Aos from '../../shared/partials/Aos'
 
 const Card = () => {
   const [cardStates, setCardStates] = useState(Cards.map(() => false))
@@ -15,12 +16,13 @@ const Card = () => {
 
   return (
     <section className={`${styles.padding}`}>
-      <div className={`${styles.flexCenter} flex-col gap-1`}>
+      <Aos/>
+      <div className={`${styles.flexCenter} flex-col gap-1`} data-aos="flip-down">
         <h3 className="text-primary opacity-[.8] text-[15px] font-poppins">Featured</h3>
         <h1 className="text-[30px] font-shippori font-bold text-center">Social Media's Posts</h1>
       </div>
 
-      <div className="sm:pt-16 pt-9 grid sm:grid-cols-3 ss:grid-cols-2 grid-cols-1 sm:gap-10 gap-6">
+      <div className="sm:pt-16 pt-9 grid sm:grid-cols-3 ss:grid-cols-2 grid-cols-1 sm:gap-10 gap-6" data-aos="fade-up">
         {Cards.map((item, index) => (
           <div key={item.id} className={`${cardStates[index] ? "sm:translate-y-[-10px]" : "sm:translate-y-0"} w-full h-[360px] relative cursor-pointer`} onClick={() => handleCardClick(index)}>
             <div className={`${cardStates[index] ? "showbackground" : "hide"} flex justify-center flex-col  p-6 gap-5 w-full h-full bg-[#3b6f56e2] absolute top-0  z-30`}>
