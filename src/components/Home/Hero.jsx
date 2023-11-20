@@ -4,36 +4,36 @@ import { HashLink as Link } from 'react-router-hash-link'
 import { useState, useEffect } from 'react'
 
 const Hero = () => {
-    // Define an array of background colors
-    const bg = ['bg-bg1', 'bg-bg2', 'bg-bg3', 'bg-bg4', 'bg-bg5', 'bg-bg6'];
+    // // Define an array of background colors
+    // const bg = ['bg-bg1', 'bg-bg2', 'bg-bg3', 'bg-bg4', 'bg-bg5', 'bg-bg6'];
   
-    // State to hold the current background color
-    const [bgChange, setBgChange] = useState(bg[0]);
+    // // State to hold the current background color
+    // const [bgChange, setBgChange] = useState(bg[0]);
   
-    useEffect(() => {
-      // Function to change the background color
-      const changeBackground = () => {
-        const randomBg = bg[Math.floor(Math.random() * bg.length)];
-        setBgChange(randomBg);
-      };
+    // useEffect(() => {
+    //   // Function to change the background color
+    //   const changeBackground = () => {
+    //     const randomBg = bg[Math.floor(Math.random() * bg.length)];
+    //     setBgChange(randomBg);
+    //   };
   
-      // Set up a timer to change the background every 5 seconds
-      const intervalId = setInterval(changeBackground, 2500);
+    //   // Set up a timer to change the background every 5 seconds
+    //   const intervalId = setInterval(changeBackground, 2500);
   
-      // Clean up the timer on component unmount
-      return () => clearInterval(intervalId);
-    }, []); 
+    //   // Clean up the timer on component unmount
+    //   return () => clearInterval(intervalId);
+    // }, []); 
 
-    const sectionStyle = {
-      backgroundSize: 'cover',
-      backgroundRepeat: 'no-repeat',
-      backgroundPosition: 'center',
-      transition: 'background 0.3s ease-in', // Apply the transition to the 'background' property
-    };
+    // const sectionStyle = {
+    //   backgroundSize: 'cover',
+    //   backgroundRepeat: 'no-repeat',
+    //   backgroundPosition: 'center',
+    //   transition: 'background 0.3s ease-in', // Apply the transition to the 'background' property
+    // };
 
 
   return (
-    <section className={`${styles.paddingX} w-full h-screen flex flex-col gap-10 ${bgChange} bg-fixed md:pt-[140px] pt-[90px] z-0`} style={sectionStyle}>
+    <section className={`${styles.paddingX} w-full h-screen flex flex-col gap-10 bg-bgHero bg-center bg-no-repeat bg-cover bg-fixed md:pt-[140px] pt-[90px] z-0`}>
       <div className={`${styles.flexCenter}`}>
         <h1 className={`${styles.heading2} font-semibold text-white text-center`}>
           Creative Photography <br className="sm:block hidden" /> Shots
