@@ -25,7 +25,7 @@ module.exports = {
         bgAmira: "url('./assets/amira.jpg')",
 
         bg1: "url('./assets/bgHero.jpg')",
-        bg2: "url('./assets/Hero1.jpg')",
+        bg2: "url('./assets/hero1.jpg')",
         bg3: "url('./assets/hero2.jpg')",
         bg4: "url('./assets/hero3.jpg')",
         bg5: "url('./assets/hero4.jpg')",
