@@ -12,7 +12,7 @@ const GetTouch = () => {
         <h3 className="font-poppins text-[15px] tracking-[1px] opacity-[.7]">Follow me on Instagram</h3>
       </div>
 
-      <div className='mt-10 px-3 grid sm:grid-cols-6 xs:grid-cols-3 grid-cols-2 gap-3' data-aos="slide-up">
+      <div className='mt-10 px-3 grid sm:grid-cols-6 xs:grid-cols-3 grid-cols-2 gap-3' data-aos="fade-up">
         {FollowIg.map((follow) => (
           <div key={follow.id} className="sm:h-[190px] h-[170px] relative">
             <a href={follow.link} target='_blank' className="hover:opacity-[.5] ease-in-out duration-[.3s]">

@@ -43,15 +43,15 @@ const Navbar = () => {
   return (
     <nav style={navbarStyle} className="w-full py-3 flex justify-between items-center navbar fixed top-0 z-50 bg-white">
       <Aos/>
-      <div className={`${styles.paddingX} w-full flex justify-between items-center z-50`} data-aos="fade-down">
-        <div className="flex justify-center items-center gap-2">
+      <div className={`${styles.paddingX} w-full flex justify-between items-center z-50`}>
+        <div className="flex justify-center items-center gap-2" data-aos="fade-down">
           <img src={logo} alt="logo" className="w-[40px] h-[40px] object-contain" />
           <h2 className="text-[25px] font-lilita text-[#3b6f56]">
             Dessay
           </h2>
         </div>
 
-        <div className="sm:flex hidden gap-5">
+        <div className="sm:flex hidden gap-5" data-aos="fade-down">
           <ul className="list-none sm:flex hidden justify-between items-center gap-5">
             {navLinks.map((nav) => (
               <li key={nav.id} className="font-poppins font-normal cursor-pointer text-[16px]">
@@ -71,8 +71,8 @@ const Navbar = () => {
         <div className="sm:hidden flex flex-1 justify-end items-center z-50">
           <img src={toggle ? close : menu} alt="menu" className="w-[28px] h-[28px] object-contain"
               onClick={() => setToggle((prev) => !prev)} />
-          <div className={`${toggle ? "flex" : "hidden"} h-screen flex-col gap-[110px] p-6 bg-black-gradient absolute top-0 left-0 min-w-[80%] sidebar`}>
-            <ul className="list-none flex flex-col justify-between items-center gap-5 flex-1">
+          <div className={`${toggle ? "flex" : "hidden"} h-screen flex-col justify-center items-center gap-[50px] p-6 bg-black-gradient absolute top-0 left-0 min-w-[80%] sidebar`}>
+            <ul className="list-none flex flex-col justify-between items-center gap-[50px]">
               {navLinks.map((nav) => (
                 <li key={nav.id} className="font-poppins font-normal cursor-pointer text-[16px] text-primary">
                   <Link to={nav.link} className="hover:text-[#44cc8a] ease-in-out duration-[.2s]"
