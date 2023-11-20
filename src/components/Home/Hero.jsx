@@ -33,7 +33,7 @@ const Hero = () => {
 
 
   return (
-    <section className={`${styles.paddingX} w-full h-screen flex flex-col gap-10 bg-bgHero bg-center bg-no-repeat bg-cover bg-fixed md:pt-[140px] pt-[90px] z-0`}>
+    <section className={`${styles.paddingX} w-full h-screen flex flex-col gap-10 bg-bgHero bg-center bg-no-repeat bg-cover bg-fixed pt-[140px] z-0`}>
       <div className={`${styles.flexCenter}`}>
         <h1 className={`${styles.heading2} font-semibold text-white text-center`}>
           Creative Photography <br className="sm:block hidden" /> Shots
