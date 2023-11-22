@@ -12,6 +12,15 @@ const Hero = () => {
     const [bgChange, setBgChange] = useState(bg[0]);
   
     useEffect(() => {
+
+      const preloadImages = () => {
+        bg.forEach((image) => {
+          const img = new Image();
+          img.src = image;
+        });
+      };
+    
+      preloadImages();
       // Function to change the background color
       const changeBackground = () => {
         const randomBg = bg[Math.floor(Math.random() * bg.length)];
@@ -36,19 +45,19 @@ const Hero = () => {
   return (
     <section className={`${styles.paddingX} w-full h-screen flex flex-col ${bgChange} gap-10 pt-[140px] z-0`} style={sectionStyle}>
       <Aos/>
-      <div className={`${styles.flexCenter}`} data-aos="fade">
+      <div className={`${styles.flexCenter}`}>
         <h1 className={`${styles.heading2} font-semibold text-white text-center`}>
           Creative Photography <br className="sm:block hidden" /> Shots
         </h1>
       </div>
 
-      <div className={`${styles.flexCenter}`} data-aos="fade">
+      <div className={`${styles.flexCenter}`}>
         <p className={`${styles.paragraph} w-[710px] text-center text-white`}>
         Photography is like telling a story without saying a word but the shots say it all. Each photograph whispers a tale, filled with emotions, colors, and the intricate dance of light and shadow.
         </p>
       </div>
 
-      <div className={`${styles.flexCenter}`} data-aos="fade">
+      <div className={`${styles.flexCenter}`}>
         <button type="button" className="py-[10px] px-[35px] rounded-[10px] bg-green-gradient cursor-pointer text-semibold">
           <Link to="#" className="text-white font-poppins">
             Find More
