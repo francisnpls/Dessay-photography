@@ -20,7 +20,7 @@ const Dogs = () => {
         <img src={bugoy} alt="bugoy" className="sm:w-[400px] xs:w-[280px] w-[230px] xs:h-[480px] h-[280px] object-cover relative sm:left-[-20px] left-0 z-0"/>
         <img src={kurdapyo} alt="kurdapyo" className="xs:w-[280px] w-[150px] xs:h-[320px] h-[200px] object-cover z-10 absolute sm:top-[90px] xs:top-[75px] top-[40px] sm:left-[300px] right-0"/>
       </div>
-      <p className="flex-[1] font-antic text-[14px] pt-[50px] md:block hidden" data-aos="fade-left">
+      <p className="flex-[1] font-antic text-[14px]text-[#373a3a] pt-[50px] md:block hidden" data-aos="fade-left">
         Meet Bugoy and Kurdapyo, they are always hold a special place in my heart, and the lessons they taught me about love, loyalty, and the joy of companionship will endure. 
       </p>
       <div>

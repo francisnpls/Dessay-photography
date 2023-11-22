@@ -16,7 +16,7 @@ const Film = () => {
         <h2 className="font-shippori font-medium sm:text-[40px] text-[30px] text-[#40442f] uppercase" data-aos="fade-right" data-aos-duration="1500"> 
           Embracing the Soulful Magic <br className='xs:hidden block'/> of Film Photography 
         </h2>
-        <p className="font-shippori font-normal opacity-[.7] md:mt-[30px] mt-[15px] md:pl-[50px]"  data-aos="fade-up">
+        <p className="font-antic font-normal text-[#373a3a] md:mt-[30px] mt-[15px] md:pl-[50px]"  data-aos="fade-up">
         The nostalgia and authenticity that film photography brings have a distinct charm that I believe adds a different dimension to my passion. I enjoy taking pictures, and when I look back at old photos, I can see the changes between then and now. The unpredictability of film, the rich tones, and the tactile nature of the process contribute to creating images that have a soulful quality. Whether it's the graininess of black and white film or the vibrant hues of color film, each photograph taken with my Kodak camera tells a story that goes beyond pixels and digital precision. 
         </p>
       </div>

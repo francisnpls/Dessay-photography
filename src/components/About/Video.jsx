@@ -18,7 +18,7 @@ const Video = () => {
       <Aos/>
       <div className="flex-[0.8] flex justify-center flex-col" >
         <h2 className="font-shippori font-medium sm:text-[40px] text-[30px] text-[#40442f] uppercase md:text-start text-end sm:block hidden" data-aos="fade-right">A Journey Through My Time in the Nature</h2>
-        <p className="font-shippori font-normal opacity-[.8] md:mt-[10px] mt-0 md:w-[95%]" data-aos="fade-up">
+        <p className="font-antic font-normal text-[#373a3a] md:mt-[10px] mt-0 md:w-[95%]" data-aos="fade-up">
           This video compilation highlights my profound adventures in nature, from taking high mountains to camping underneath the stars and wandering peaceful rivers. Come along on this visual journey with me as I effectively combine serene moments, the excitement of discovery, and the raw beauty of nature.</p>
       </div>
       <div className="flex-1 relative w-full" data-aos="fade" data-aos-duration="2500">
