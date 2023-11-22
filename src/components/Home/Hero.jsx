@@ -2,6 +2,7 @@ import React from 'react'
 import styles from '../../styles'
 import { HashLink as Link } from 'react-router-hash-link'
 import { useState, useEffect } from 'react'
+import Aos from '../../shared/partials/Aos'
 
 const Hero = () => {
     // Define an array of background colors
@@ -34,19 +35,20 @@ const Hero = () => {
 
   return (
     <section className={`${styles.paddingX} w-full h-screen flex flex-col ${bgChange} gap-10 pt-[140px] z-0`} style={sectionStyle}>
-      <div className={`${styles.flexCenter}`}>
+      <Aos/>
+      <div className={`${styles.flexCenter}`} data-aos="fade">
         <h1 className={`${styles.heading2} font-semibold text-white text-center`}>
           Creative Photography <br className="sm:block hidden" /> Shots
         </h1>
       </div>
 
-      <div className={`${styles.flexCenter}`}>
+      <div className={`${styles.flexCenter}`} data-aos="fade">
         <p className={`${styles.paragraph} w-[710px] text-center text-white`}>
         Photography is like telling a story without saying a word but the shots say it all. Each photograph whispers a tale, filled with emotions, colors, and the intricate dance of light and shadow.
         </p>
       </div>
 
-      <div className={`${styles.flexCenter}`}>
+      <div className={`${styles.flexCenter}`} data-aos="fade">
         <button type="button" className="py-[10px] px-[35px] rounded-[10px] bg-green-gradient cursor-pointer text-semibold">
           <Link to="#" className="text-white font-poppins">
             Find More

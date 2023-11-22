@@ -35,9 +35,17 @@ export const navLinks = [
     {
       id: "gallery",
       title: "Gallery",
-      link: "/gallery"
+      link: "/gallery/nature"
     },
   ];
+
+export const Gallery = [
+  {
+    id: "nature",
+    Title: "Nature",
+    Link: "/"
+  },
+];
 
 export const Features = [
     {

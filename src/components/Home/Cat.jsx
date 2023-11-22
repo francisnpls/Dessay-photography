@@ -11,7 +11,7 @@ const Cat = () => {
           Relive <br className="sm:hidden block"/> your <br className="sm:block hidden"/> day, <br className="sm:hidden block"/> everyday
         </h2>
         <div className="flex-1 flex flex-col gap-1 sm:pt-[160px] pt-[90px]" data-aos="zoom-in">
-          <p className="text-white sm:font-normal font-bold font-montserrat text-[15px] leading-[40px] [word-spacing: 2px] sm:w-[510px] w-full text-justify">
+          <p className="text-white sm:font-normal font-normal font-montserrat text-[15px] leading-[40px] [word-spacing: 2px] sm:w-[510px] w-full text-justify">
             “Everything always looked better in black and white. Everything always looked as if it were the first time; there's always more people in a black and white photograph. It just makes it seem that there were more people at a gig, more people at a football match, than with colour photography. Everything looks more exciting.”
           </p>
           <p className="text-white font-bold font-montserrat text-[15px] leading-[40px] [word-spacing: 2px] sm:w-[510px] w-full text-end">

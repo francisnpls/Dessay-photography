@@ -26,7 +26,7 @@ const Footer = () => {
                 {socials.map((social) => (
                   <a href={social.link} key={social.id} className={`${styles.flexCenter} border-[1px] border-[#848d5e] 
                   w-[30px] h-[30px] rounded-full hover:border-[#3b6f56] hover:bg-[#3b6f56] ease-in duration-[.3s]`}>
-                    <i className={`${social.icon} text-[15px] text-[#848d5e]`}></i>
+                    <i className={`${social.icon} text-[15px] text-[#40442f]`}></i>
                   </a>
                 ))}
               </div>

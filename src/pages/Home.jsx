@@ -7,7 +7,6 @@ import Everything from '../components/Home/Everything'
 import Studio from '../components/Home/Studio'
 import Cat from '../components/Home/Cat'
 import Amira from '../components/Home/Amira'
-import GetTouch from '../components/Home/GetTouch'
 
 const Home = () => {
   return (
@@ -20,7 +19,6 @@ const Home = () => {
       <Studio />
       <Cat />
       <Amira />
-      <GetTouch />
     </main>    
   )
 }

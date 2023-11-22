@@ -10,6 +10,7 @@ import blckWave from './blckWave.jpeg';
 import butterfly from './butterfly.png';
 import camping from './camping.jpg';
 import close from './close.png';
+import dessay from './dessay.jpg';
 import flower from './flower.png';
 import heart from './heart.png';
 import IconIG from './IconIG.png';
@@ -41,6 +42,7 @@ export {
     butterfly,
     camping,
     close,
+    dessay,
     flower,
     heart,
     IconIG,

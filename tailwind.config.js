@@ -23,6 +23,7 @@ module.exports = {
         bgCat: "url('./assets/blckCat.jpeg')",
         bgMoon: "url('./assets/blckMoon.jpg')",
         bgAmira: "url('./assets/amira.jpg')",
+        bgBook: "url('./assets/Film/kislap.jpg')",
 
         bg1: "url('./assets/bgHero.jpg')",
         bg2: "url('./assets/hero1.jpg')",

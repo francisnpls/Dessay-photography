@@ -55,7 +55,7 @@ const Navbar = () => {
           <ul className="list-none sm:flex hidden justify-between items-center gap-5">
             {navLinks.map((nav) => (
               <li key={nav.id} className="font-poppins font-normal cursor-pointer text-[16px]">
-                <Link to={nav.link} className="hover:text-[#44cc8a] ease-in-out duration-[.2s]">
+                <Link to={nav.link} className="hover:text-[#44cc8a] text-[#3b6f56] ease-in-out duration-[.2s]">
                   {nav.title}
                 </Link>
               </li>
