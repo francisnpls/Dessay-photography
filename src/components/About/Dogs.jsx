@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../../styles'
-import { bugoy, kurdapyo, mingming } from '../../assets/Film'
+import { bugoy, kurdapyo, mingming } from '../../assets/FilmImg'
 import Aos from '../../shared/partials/Aos'
 
 const Dogs = () => {
@@ -9,7 +9,7 @@ const Dogs = () => {
       <Aos/>
       <div className="flex-[0.8] z-10 flex">
         <h2 className=" font-shippori sm:text-[80px] text-[50px] font-medium uppercase text-[#40442f] md:leading-[100px] flex sm:justify-center items-center z-10" data-aos="fade-right"  data-aos-duration="1500">
-          I am <br/> also <br /> Dog <br/> people
+          I am <br/> also <br /> Dog <br/> person
         </h2>
         <p className="font-antic text-[13px] pt-[20px] opacity-[.7] md:hidden block" data-aos="fade-left"  data-aos-duration="1500">
           Meet Bugoy and Kurdapyo, they are always hold a special place in my heart, and the lessons they taught me about love, loyalty, and the joy of companionship will endure. 

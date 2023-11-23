@@ -1,38 +1,21 @@
 import React from 'react'
 import styles from '../../styles'
 import { HashLink as Link } from 'react-router-hash-link'
-import { useState, useEffect } from 'react'
+import { useState, useEffect, useRef } from 'react'
 import Aos from '../../shared/partials/Aos'
 
 const Hero = () => {
-    // Define an array of background colors
-    const bg = ['bg-bg1', 'bg-bg2', 'bg-bg3', 'bg-bg4', 'bg-bg5', 'bg-bg6', 'bg-bg7'];
-  
-    // State to hold the current background color
-    const [bgChange, setBgChange] = useState(bg[0]);
-  
-    useEffect(() => {
+  const bg = ['bg-bg1', 'bg-bg2', 'bg-bg3', 'bg-bg4', 'bg-bg5', 'bg-bg6', 'bg-bg7'];
+  const [bgChange, setBgChange] = useState(bg[0]);
 
-      const preloadImages = () => {
-        bg.forEach((image) => {
-          const img = new Image();
-          img.src = image;
-        });
-      };
-    
-      preloadImages();
-      // Function to change the background color
-      const changeBackground = () => {
-        const randomBg = bg[Math.floor(Math.random() * bg.length)];
-        setBgChange(randomBg);
-      };
-  
-      // Set up a timer to change the background every 5 seconds
-      const intervalId = setInterval(changeBackground, 2500);
-  
-      // Clean up the timer on component unmount
-      return () => clearInterval(intervalId);
-    }, []); 
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      const randomBg = bg[Math.floor(Math.random() * bg.length)];
+      setBgChange(randomBg);
+    }, 2500);
+
+    return () => clearInterval(intervalId);
+  }, [bg]);
 
     const sectionStyle = {
       backgroundSize: 'cover',

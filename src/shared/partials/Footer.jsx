@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../../styles'
-import { logo } from '../../assets'
+import { logo } from '../../assets/HomeImg'
 import { socials } from '../../constants'
 import { navLinks } from '../../constants'
 import { Link } from 'react-router-dom'

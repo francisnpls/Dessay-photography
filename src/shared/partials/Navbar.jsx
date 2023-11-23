@@ -1,6 +1,6 @@
 import React from 'react';
 import styles from '../../styles';
-import { logo, close, menu } from '../../assets';
+import { logo, close, menu } from '../../assets/HomeImg';
 import { navLinks } from '../../constants'
 import { Link } from 'react-router-dom';
 import { useState, useEffect } from 'react';
@@ -41,7 +41,7 @@ const Navbar = () => {
   };  
 
   return (
-    <nav style={navbarStyle} className="w-full py-3 flex justify-between items-center navbar fixed top-0 z-50 bg-white">
+    <nav style={navbarStyle} className="w-full py-3 flex justify-between items-center navbar fixed top-0 z-40 bg-white">
       <Aos/>
       <div className={`${styles.paddingX} w-full flex justify-between items-center z-50`}>
         <div className="flex justify-center items-center gap-2" data-aos="fade-down">

@@ -1,6 +1,5 @@
 import React from 'react'
-import styles from '../../styles'
-import { blckStreet, blckChild, flower } from '../../assets'
+import { blckStreet, blckChild, flower } from '../../assets/HomeImg'
 import Aos from '../../shared/partials/Aos'
 
 const Everything = () => {

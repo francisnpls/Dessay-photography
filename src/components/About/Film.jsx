@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../../styles'
-import { street3, street, model } from '../../assets/Film'
+import { street3, street1, model } from '../../assets/FilmImg'
 import Aos from '../../shared/partials/Aos'
 
 const Film = () => {
@@ -8,7 +8,7 @@ const Film = () => {
     <section className={`${styles.padding} w-full md:h-screen md:flex-row flex-col flex  md:gap-[200px] sm:gap-[120px] xs:gap-[200px] gap-[315px]`}>
       <Aos/>
       <div className="flex-1 sm:pt-[30px] relative"> 
-        <img src={street} alt="street" className="xs:w-[320px] w-[220px] xs:h-[420px] h-[300px] object-cover z-0 relative xs:left-0 -left-4" data-aos="fade" data-aos-duration="2000"/>
+        <img src={street1} alt="street" className="xs:w-[320px] w-[220px] xs:h-[420px] h-[300px] object-cover z-0 relative xs:left-0 -left-4" data-aos="fade" data-aos-duration="2000"/>
         <img src={street3} alt="street3"className="xs:w-[250px] w-[230px] xs:h-[300px] h-[280px] object-cover z-10 absolute xs:top-[250px] top-[90px] xs:left-[240px] -right-4" data-aos="fade" data-aos-duration="2000"/>
         <img src={model} alt="model" className="xs:w-[270px] w-full sm:h-[350px] h-[290px] object-cover sm:z-20 z-0 absolute sm:top-[90px] top-[330px] sm:left-[350px]" data-aos="fade" data-aos-duration="2000"/>
       </div>

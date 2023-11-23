@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../../styles'
-import { Clips } from '../../assets/Film'
+import { Clips } from '../../assets/FilmImg'
 import { useState, useRef } from 'react'
 import Aos from '../../shared/partials/Aos'
 

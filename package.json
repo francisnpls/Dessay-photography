@@ -13,6 +13,7 @@
     "aos": "^2.3.4",
     "react": "^18.2.0",
     "react-dom": "^18.2.0",
+    "react-responsive-masonry": "^2.1.7",
     "react-router-dom": "^6.19.0",
     "react-router-hash-link": "^2.4.3",
     "router-dom": "^2.2.11"

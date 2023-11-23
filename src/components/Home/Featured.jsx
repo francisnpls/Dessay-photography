@@ -1,5 +1,4 @@
 import React from 'react'
-import styles from '../../styles'
 import { Features } from '../../constants'
 import Aos from '../../shared/partials/Aos'
 

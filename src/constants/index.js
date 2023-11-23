@@ -1,12 +1,12 @@
 import { 
   nature, 
-  beach1, 
+  beachhero, 
   street,
   manila,
   pet,
   river,
   mountain,
-  beach2,
+  beachhero2,
   camping,
   ig1,
   ig2,
@@ -14,7 +14,8 @@ import {
   ig4,
   ig5,
   ig6,
-  IconIG } from "../assets";
+  IconIG } from "../assets/HomeImg";
+
 
 export const navLinks = [
     {
@@ -35,15 +36,35 @@ export const navLinks = [
     {
       id: "gallery",
       title: "Gallery",
-      link: "/gallery/nature"
+      link: "/gallery"
     },
   ];
 
 export const Gallery = [
   {
     id: "nature",
-    Title: "Nature",
-    Link: "/"
+    title: "Nature",
+    link: "/gallery/nature"
+  },
+  {
+    id: "film",
+    title: "Film",
+    link: "/gallery/film"
+  },
+  {
+    id: "street",
+    title: "Street",
+    link: "/gallery/street"
+  },
+  {
+    id: "bnw",
+    title: "BNW",
+    link: "/gallery/BNW"
+  },
+  {
+    id: "random",
+    title: "Random",
+    link: "/gallery/random"
   },
 ];
 
@@ -56,7 +77,7 @@ export const Features = [
     {
       id: "beach",
       title: "Beach",
-      img: beach1
+      img: beachhero
     },
     {
       id: "street",
@@ -102,7 +123,7 @@ export const Cards = [
       id: "beach",
       social: "Instagram",
       title: "Beach",
-      img: beach2,
+      img: beachhero2,
       content: "The pristine beauty of the beaches and islands of Boracay, a tropical paradise known for its breathtaking landscapes, is captured in this entrancing picture. The captivating white sands are softly touched by the azure waters of the sea, forming a fascinating contrast that delineates the coastline.",
       url: "https://www.instagram.com/p/CcMrEOCrcsb/?img_index=1"
     },

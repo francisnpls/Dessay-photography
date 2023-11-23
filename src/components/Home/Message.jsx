@@ -1,6 +1,6 @@
 import React from 'react'
 import styles from '../../styles'
-import { heart, butterfly } from '../../assets'
+import { heart, butterfly } from '../../assets/HomeImg'
 import Aos from '../../shared/partials/Aos'
 
 const Message = () => {
