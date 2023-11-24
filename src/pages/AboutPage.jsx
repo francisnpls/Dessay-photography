@@ -7,13 +7,13 @@ import Book from '../components/About/Book'
 
 const About = () => {
   return (
-    <div className="z-0">
+    <main className="z-0">
       <Personal/>
       <Film/>
       <Video/>
       <Dogs/>
       <Book/>
-    </div>
+    </main>
   )
 }
 

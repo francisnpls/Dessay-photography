@@ -18,7 +18,6 @@ const GalleryLayout = () => {
       <div className="z-0">
         <Choices/>
         <Outlet/>
-        {/* <Footer/> */}
       </div>
     </div>
   )
