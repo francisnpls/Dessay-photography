@@ -31,7 +31,7 @@ const ArrowUp = () => {
 
   return (
     <div className={`fixed md:right-[65px] right-6 md:bottom-[40px] bottom-6 z-[50] ${showArrow ? 'visible' : 'invisible'} ease-in duration-[.3s]`}>
-      <button type='button' className="md:w-[40px] w-[30px] md:h-[40px] h-[30px] rounded-full flex justify-center 
+      <button type='button' className="w-[40px] h-[40px] rounded-full flex justify-center 
       items-center bg-white boxshadow" onClick={scrollToTop}>
         <i className="fa-solid fa-chevron-up text-[#373a3a]"></i>
       </button>

@@ -14,7 +14,7 @@ const Everything = () => {
       </div>
 
       <div className="flex-1 flex md:flex-row flex-col sm:gap-0 gap-5">
-        <div className="flex-1 flex sm:flex-col gap-5 sm:items-center items-ends sm:pt-[70px] sm:px-0 px-6">
+        <div className="flex-1 flex sm:flex-col gap-5 sm:items-center items-end sm:pt-[70px] sm:px-0 px-6">
           <img src={flower} alt="flower" className="sm:w-[220px] w-[150px] sm:h-[270px] h-[200px]" data-aos="zoom-in"/>
           <p className="font-shippori text-center sm:text-[27px] text-[24px] text-[#252525] font-medium uppercase leading-[28px]" data-aos="zoom-in">
             Camera <br/> is <br/> Everything
