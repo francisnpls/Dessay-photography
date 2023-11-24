@@ -5,7 +5,7 @@ import GetTouch from '../partials/GetTouch'
 import { useEffect } from 'react'
 import { useLocation } from 'react-router-dom'
 import { Outlet } from 'react-router-dom'
-
+import ArrowUp from '../partials/ArrowUp'
 
 const RootLayout = () => {
   const location = useLocation();
@@ -19,6 +19,7 @@ const RootLayout = () => {
     <div className="w-full overflow-hidden">
       <div className="z-50">
         <Navbar/>
+        <ArrowUp/>
         <Outlet/>
         <GetTouch />
         <Footer/>
