@@ -28,14 +28,12 @@ import party from './party.jpg';
 import pets from './pets.jpg';
 import playing from './playing.jpg';
 import shooting from './shooting.jpg';
-import socks from './socks.jpg';
 import street1 from './street1.jpg';
 import street2 from './street2.jpg';
 import street3 from './street3.jpg';
 import street4 from './street4.jpg';
 import tonsworld from './tonsworld.jpg';
 import torotot from './torotot.jpg';
-import virginia from './virginia.jpg';
 
 export {
     agno,
@@ -68,13 +66,11 @@ export {
     pets,
     playing,
     shooting,
-    socks,
     street1,
     street2,
     street3,
     street4,
     tonsworld,
-    torotot,
-    virginia
+    torotot
 }
 

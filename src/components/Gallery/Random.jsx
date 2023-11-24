@@ -2,12 +2,12 @@ import React from 'react'
 import styles from '../../styles'
 import Masonry, {ResponsiveMasonry} from 'react-responsive-masonry'
 import { useState, useEffect } from 'react'
-import { galleryImages } from '../../constants/gallery'
-import { ig3 } from '../../assets/HomeImg'
+import { randomImages } from '../../constants/gallery'
+import { sun3 } from '../../assets/NatureImg'
 import Aos from '../../shared/partials/Aos'
 
 
-const Hero = () => {
+const Random = () => {
     const [data, setData] = useState({img: '', i: 0})
 
     const viewImage = (img, i) => {
@@ -17,9 +17,9 @@ const Hero = () => {
     const imgAction = (action) => {
       let i = data.i;
       if(action === 'next-img') {
-        setData({img: galleryImages[i + 1], i: i + 1})
+        setData({img: randomImages[i + 1], i: i + 1})
       } else if(action == 'prev-img') {
-        setData({img: galleryImages[i - 1], i: i - 1})
+        setData({img: randomImages[i - 1], i: i - 1})
       } else if(!action) {
         setData({img: '', i: 0})
       }
@@ -62,14 +62,17 @@ const Hero = () => {
           </div>
         }
   
-        <div className="sm:block hidden">
-          <img src={ig3} alt="garuts" className="object-contain" data-aos="fade" data-aos-duration="2000"/>
+        <div>
+          <img src={sun3} alt="garuts" className="object-contain" data-aos="fade" data-aos-duration="2000"/>
+          <h1 className="font-shippori text-center text-[30px] text-[#373a3a] uppercase sm:mt-12 mt-6" data-aos="flip-up"> 
+            Random
+          </h1>
         </div>
   
-        <div className="sm:pt-12">
+        <div className="sm:pt-12 pt-6">
           <ResponsiveMasonry columnsCountBreakPoints={{350: 1, 750: 2, 900: 3}}>
             <Masonry gutter="20px">
-              {galleryImages.map((image, i) => (
+              {randomImages.map((image, i) => (
                 <img 
                   key={i}
                   src={image} 
@@ -87,4 +90,4 @@ const Hero = () => {
     )
   }
 
-export default Hero
+export default Random
