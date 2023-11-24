@@ -27,7 +27,7 @@ import {
 
 import {
     alexacute1, alexacute2, alexacute3, chair, concert, converse, d4, dem, Hale, marco, muning, shoot, sky1, sky2, socks,
-    spider, streetdog, virginia
+    spider, streetdog, virginia, binyag, wig, enzo
 } from '../assets/RandomImg'
 
 
@@ -58,8 +58,8 @@ export const streetImages = [
 ]
 
 export const galleryImages = [
-    alexacute1, alexacute2, alexacute3, chair, concert, converse, d4, dem, Hale, marco, muning, shoot, sky1, sky2, virginia, 
-    socks,  streetdog, spider,
+    alexacute1, alexacute2, alexacute3, enzo, concert, chair,  converse, d4, dem, Hale, marco, binyag,  sky1, 
+    muning, shoot, wig, sky2, virginia, socks, streetdog, spider,
 ]
 
 export const randomImages = [
