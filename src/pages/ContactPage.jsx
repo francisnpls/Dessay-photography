@@ -1,12 +1,12 @@
 import React from 'react'
 import Hero from '../components/Contact/Hero'
-import Inquire from '../components/Contact/inquire'
+import Info from '../components/Contact/Info'
 
 const Contact = () => {
   return (
     <main className='z-0'>
       <Hero />
-      <Inquire />
+      <Info />
     </main>
   )
 }
