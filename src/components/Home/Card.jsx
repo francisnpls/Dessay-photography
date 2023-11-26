@@ -22,10 +22,12 @@ const Card = () => {
         <h1 className="text-[30px] font-shippori font-bold text-center">Social Media's Posts</h1>
       </div>
 
-      <div className="sm:pt-16 pt-9 grid sm:grid-cols-3 ss:grid-cols-2 grid-cols-1 sm:gap-10 gap-6" data-aos="fade">
+      <div className="sm:pt-16 pt-9 grid sm:grid-cols-3 ss:grid-cols-2 grid-cols-1 sm:gap-10 gap-6" data-aos="fade" data-aos-duration="2000">
         {Cards.map((item, index) => (
-          <div key={item.id} className={`${cardStates[index] ? "sm:translate-y-[-10px]" : "sm:translate-y-0"} w-full h-[360px] relative cursor-pointer`} onClick={() => handleCardClick(index)}>
-            <div className={`${cardStates[index] ? "showbackground" : "hide"} flex justify-center flex-col  p-6 gap-5 w-full h-full bg-[#3b6f56e2] absolute top-0  z-30`}>
+          <div key={item.id} className={`${cardStates[index] ? "sm:translate-y-[-10px]" : "sm:translate-y-0"} 
+          w-full h-[360px] relative cursor-pointer`} onClick={() => handleCardClick(index)}>
+            <div className={`${cardStates[index] ? "showbackground" : "hide"} flex justify-center flex-col p-6 gap-5 
+            w-full h-full bg-[#b4a194eb] absolute top-0  z-30`}>
               <p className={`${styles.flexCenter}  text-white font-antic text-[16px] tracking-wide`}>
                 {item.content}
               </p>

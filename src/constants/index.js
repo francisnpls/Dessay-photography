@@ -197,4 +197,31 @@ export const socials = [
     icon: "fa-brands fa-youtube",
     link: "#"
   },
-]
+];
+
+export const forms = [
+  {
+    id: "username",
+    title: "Full Name",
+    type: "text",
+    name: "userName",
+    placeholder: "Please provide your fullname",
+    class: "sm:w-[330px] w-full h-[30px]"
+  },
+  {
+    id: "email",
+    title: "Email",
+    type: "email",
+    name: "userEmail",
+    placeholder: "Please provide your email address",
+    class: "sm:w-[330px] w-full h-[30px]"
+  },
+  {
+    id: "phone",
+    title: "Phone",
+    type: "number",
+    name: "phoneNumber",
+    placeholder: "Please provide your active number",
+    class: "sm:w-[330px] w-full h-[30px] flex text-start justify-start items-start"
+  },
+];

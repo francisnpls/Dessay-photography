@@ -10,6 +10,8 @@ import Nature from './components/Gallery/Nature'
 import BNW from './components/Gallery/BNW'
 import Street from './components/Gallery/Street'
 import Random from './components/Gallery/Random'
+import Contact from './pages/ContactPage'
+import Blog from './pages/BlogPage'
 
 const App = () => {
   return (
@@ -17,7 +19,9 @@ const App = () => {
       <Route element={<RootLayout />}>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
-l
+        <Route path="/contact" element={<Contact />} />
+        <Route path="/blog" element={<Blog />} />
+
         <Route element={<GalleryLayout />}>
           <Route path="/gallery" element={<Gallery />} />
           <Route path="/gallery/film" element={<Film />}/>

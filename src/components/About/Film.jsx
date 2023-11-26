@@ -13,7 +13,10 @@ const Film = () => {
         <img src={model} alt="model" className="xs:w-[270px] w-full sm:h-[350px] h-[290px] object-cover sm:z-20 z-0 absolute sm:top-[90px] top-[330px] sm:left-[350px]" data-aos="fade" data-aos-duration="2000"/>
       </div>
       <div className={`flex-1 pt-[30px] ${styles.flexCenter} flex-col`}>
-        <h2 className="font-shippori font-medium sm:text-[40px] text-[30px] text-[#40442f] uppercase" data-aos="fade-right" data-aos-duration="1500"> 
+        <h2 className="md:block hidden font-shippori font-medium sm:text-[40px] text-[30px] text-[#40442f] uppercase" data-aos="fade-left" data-aos-duration="1500"> 
+          Embracing the Soulful Magic <br className='xs:hidden block'/> of Film Photography 
+        </h2>
+        <h2 className="md:hidden block font-shippori font-medium sm:text-[40px] text-[30px] text-[#40442f] uppercase" data-aos="fade-right" data-aos-duration="1500"> 
           Embracing the Soulful Magic <br className='xs:hidden block'/> of Film Photography 
         </h2>
         <p className="font-antic font-normal text-[#373a3a] md:mt-[30px] mt-[15px] md:pl-[50px]"  data-aos="fade-up">

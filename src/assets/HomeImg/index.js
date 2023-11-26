@@ -27,6 +27,7 @@ import ig4 from './ig4.jpg';
 import ig5 from './ig5.jpg';
 import ig6 from './ig6.jpg';
 import logo from './logo.png';
+import logo2 from './logo2.png';
 import manila from './manila.jpg';
 import menu from './menu.png';
 import mountain from './mountain.jpg';
@@ -65,6 +66,7 @@ export {
     ig5,
     ig6,
     logo,
+    logo2,
     manila,
     menu,
     mountain,

@@ -15,7 +15,7 @@ const Book = () => {
           <div className="md:w-[200px] md:h-[3px] w-[20px] h-[5px] md:rounded-0 rounded-full bg-white relative text-end"/>
         </div>
         
-        <div className="flex justify-between items-center md:flex-row flex-col md:gap-0 gap-[30px]">
+        <div className="flex justify-between items-center md:flex-row flex-col md:gap-0 gap-[10px]">
           <p className="font-montserrat text-white md:text-[16px] text-[13px] font-medium w-[350px]" data-aos="fade-right">
             Through this website, I invite you to explore my portfolio and join me on this visual journey. Feel free to browse through my work, and I hope you find joy and inspiration in the stories my photographs tell.
           </p>

@@ -41,7 +41,7 @@ const Hero = () => {
       </div>
 
       <div className={`${styles.flexCenter}`}>
-        <button type="button" className="py-[10px] px-[35px] rounded-[10px] bg-green-gradient cursor-pointer text-semibold">
+        <button type="button" className="py-[10px] px-[35px] bg-[#cfb8a9] cursor-pointer text-semibold">
           <Link to="#" className="text-white font-poppins">
             Find More
           </Link>

@@ -87,6 +87,12 @@
   animation: slide-left 0.5s cubic-bezier(0.25, 0.46, 0.45, 0.94) both;
 }
 
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
 .showbackground {
   opacity: 1;
   transition: opacity 0.3s ease-out;
