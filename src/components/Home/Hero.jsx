@@ -1,7 +1,7 @@
 import React from 'react'
 import styles from '../../styles'
 import { HashLink as Link } from 'react-router-hash-link'
-import { useState, useEffect, useRef } from 'react'
+import { useState, useEffect } from 'react'
 import Aos from '../../shared/partials/Aos'
 
 const Hero = () => {
@@ -26,7 +26,7 @@ const Hero = () => {
 
 
   return (
-    <section className={`${styles.paddingX} w-full h-screen flex flex-col ${bgChange} gap-10 pt-[140px] z-0`} style={sectionStyle}>
+    <section className={`${styles.paddingX} w-full h-screen flex flex-col ${bgChange} gap-10 pt-[140px] z-0 bg-fixed`} style={sectionStyle}>
       <Aos/>
       <div className={`${styles.flexCenter}`}>
         <h1 className={`${styles.heading2} font-semibold text-white text-center`}>
@@ -36,13 +36,13 @@ const Hero = () => {
 
       <div className={`${styles.flexCenter}`}>
         <p className={`${styles.paragraph} w-[710px] text-center text-white`}>
-        Photography is like telling a story without saying a word but the shots say it all. Each photograph whispers a tale, filled with emotions, colors, and the intricate dance of light and shadow.
+          Photography is like telling a story without saying a word but the shots say it all. Each photograph whispers a tale, filled with emotions, colors, and the intricate dance of light and shadow.
         </p>
       </div>
 
       <div className={`${styles.flexCenter}`}>
-        <button type="button" className="py-[10px] px-[35px] bg-[#cfb8a9] cursor-pointer text-semibold">
-          <Link to="#" className="text-white font-poppins">
+        <button type="button" className="py-[10px] px-[35px] bg-brown-gradient cursor-pointer text-semibold">
+          <Link to="#message" className="text-white font-poppins">
             Find More
           </Link>
         </button>

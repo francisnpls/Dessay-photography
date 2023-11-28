@@ -20,7 +20,7 @@ const Message = () => {
         <p className="flex-1 font-montserrat text-[15px] font-normal leading-[25px] text-justify" data-aos="fade-left">
           The photographer and the viewer connect, sharing in the beauty, complexity, and simplicity of the human experience, all without uttering a single word.
         </p>
-        <div className="flex-1 flex justify-center items-center">
+        <div id="message" className="flex-1 flex justify-center items-center">
           <img src={heart} alt="butterfly" className="w-[410px] h-[80px]object-contain" data-aos="fade-right" />
         </div>
       </div>

@@ -42,8 +42,8 @@ const Info = () => {
               className="border-[1px] border-[#575757] px-[10px] sm:w-[330px] w-full h-[250px] focus:outline-none focus:border-[#b4a194]"
               required/> <br />
           </label>
-          <div className="flex justify-center items-center mt-[20px]">
-            <button type="submit" value="Send" className="bg-[#cfb8a9] text-white font-poppins px-[10px] py-[5px]">
+          <div className="flex justify-center items-center mt-[5px]">
+            <button type="submit" value="Send" className="bg-[#cfb8a9] text-white font-poppins px-[18px] py-[8px]">
               Submit
             </button>
           </div>

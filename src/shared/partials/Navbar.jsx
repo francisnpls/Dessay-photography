@@ -16,7 +16,7 @@ const Navbar = () => {
     // Function to handle scroll event
     const handleScroll = () => {
       // Check if the user has scrolled down more than 50 pixels
-      if (window.scrollY > 50) {
+      if (window.scrollY > 30) {
         setScrolling(true);
       } else {
         setScrolling(false);

@@ -50,9 +50,9 @@ const Footer = () => {
               <p className="text-[15px] text-[#373a3a] font-normal font-antic">Capturing Moments, Creating Memories</p>
               <p className="text-[15px] text-[#373a3a] font-normal font-antic">Photography is like telling a story. Join us on this artistic journey, where every click is a chapter in the story of life's extraordinary tapestry.</p>
               <button type='button' className="mt-5 cursor-pointer py-[10px] px-[35px] bg-[#f3f1ee] hover:bg-[#e6f89c] ease-in duration-[.3s]">
-                <a href="#" className="font-montserrat text-[#373a3a] text-[14px] uppercase tracking-[1px]">
+                <Link to="/contact" className="font-montserrat text-[#373a3a] text-[14px] uppercase tracking-[1px]">
                   Reach Out
-                </a>
+                </Link>
               </button>
               <p className="text-[12px] font-montserrat font-bold sm:block hidden text-end mt-10">
                 Designed and Developed by <span className="text-[#3b6f56]">Francisnpls.</span>

@@ -7,6 +7,7 @@ import blckChild from './blckChild.jpg';
 import blckMoon from './blckMoon.jpg';
 import blckStreet from './blckStreet.jpg';
 import blckWave from './blckWave.jpeg';
+import blog from './blog.mp4';
 import butterfly from './butterfly.png';
 import camping from './camping.jpg';
 import close from './close.png';
@@ -46,6 +47,7 @@ export {
     blckMoon,
     blckStreet,
     blckWave,
+    blog,
     butterfly,
     camping,
     close,

@@ -49,6 +49,12 @@
   );
 }
 
+.bg-brown-gradient {
+  background: #f8e4c7;
+  background: -webkit-linear-gradient(181deg, #f8e4c7 0%, #96745b 100%);
+  background: linear-gradient(181deg, #f8e4c7 0%, #96745b 100%);
+}
+
 .bg-black-gradient {
   background: #eaf1f7;
   background: -webkit-linear-gradient(180deg, #eaf1f7 0%, #d4fff2 100%);
