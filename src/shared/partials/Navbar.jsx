@@ -45,8 +45,8 @@ const Navbar = () => {
       <Aos/>
       <div className={`${styles.paddingX} w-full flex justify-between items-center z-50`}>
         <div className="flex justify-center items-center gap-2" data-aos="fade-down">
-          <img src={logo2} alt="logo" className="w-[40px] h-[40px] object-contain" />
-          <h2 className={`text-[#b4a194] text-[25px] font-lilita`}>
+          <img src={logo} alt="logo" className="w-[40px] h-[40px] object-contain" />
+          <h2 className={`text-[#1f6141] text-[25px] font-lilita`}>
             Dessay
           </h2>
         </div>
@@ -61,7 +61,7 @@ const Navbar = () => {
               </li>
             ))}
           </ul>
-          <button type="button" className={`h-[30px] bg-[#dac7ba] px-3 outline-none border-none`}>
+          <button type="button" className={`h-[30px] bg-green-gradient px-3 outline-none border-none`}>
             <Link to="/contact" className="font-montserrat font-medium uppercase text-[13px] text-white">
               Reach Out
             </Link>
